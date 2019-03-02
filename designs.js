@@ -4,8 +4,6 @@ function changeColor() {         // color fucntion
     this.style.background = color;
 }
 
-
-
 function makeGrid() {     //  create makeGrid. Clear and create table based on user inputs 
     const gridHeight = document.getElementById("input_height").value;     // height
     const gridWidth = document.getElementById("input_width").value;        // width
