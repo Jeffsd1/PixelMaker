@@ -1,22 +1,9 @@
-/*
-Input: no input
-Output: no output
-Behavior: change current scope background color to the color picked from colorPicker
-*/
+
 function changeColor() {
     const color = document.getElementById("colorPicker").value;
     this.style.background = color;
 }
 
-
-
-/*
-Input: no input
-Output: no output
-Behavior : It creates a table with width and height from input. Each cell contains 
-            onclick event handler that calls changeColor() function.
-            After the event, the behavior stays without going to default.
-*/
 function makeGrid() {
     const gridHeight = document.getElementById("input_height").value;
     const gridWidth = document.getElementById("input_width").value;
