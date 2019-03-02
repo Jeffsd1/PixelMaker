@@ -1,5 +1,5 @@
 
-function changeColor() {
+function changeColor() {         // color fucntion
     const color = document.getElementById("colorPicker").value;
     this.style.background = color;
 }
@@ -7,9 +7,9 @@ function changeColor() {
 
 
 function makeGrid() {     //  create makeGrid. Clear and create table based on user inputs 
-    const gridHeight = document.getElementById("input_height").value;
-    const gridWidth = document.getElementById("input_width").value;
-    const pixelCanvas = document.getElementById("pixel_canvas"); 
+    const gridHeight = document.getElementById("input_height").value;     // height
+    const gridWidth = document.getElementById("input_width").value;        // width
+    const pixelCanvas = document.getElementById("pixel_canvas");            // pixel
     pixelCanvas.innerText=""; // empty table   
     
     for (let h=0; h<gridHeight; ++h) {
